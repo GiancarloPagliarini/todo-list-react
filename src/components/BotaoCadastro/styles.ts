@@ -18,4 +18,10 @@ export const Circulo = styled(Link)`
 
   right: 40px;
   bottom: 40px;
+
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 `
